@@ -10,6 +10,26 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    background-color: #fff;
+    color: #5f5f5f;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /*------------------------------------*/
 /* REUSABLE COMPONENTS */
 /*------------------------------------*/
@@ -312,3 +332,93 @@ input[type=checkbox] {
 
 
 
+/*------------------------------------*/
+/* ORDER-SECTION */
+/*------------------------------------*/
+
+
+.section-plans {
+    background-color: #f4f4f4;
+}
+
+
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    -webkit-box-shadow: 0 2px 2px #e3e3e3;
+    box-shadow: 0 2px 2px #8b8b8b;
+}
+
+.plan-box {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border: 0;
+}
+
+.plan {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #cf6d17;
+}
+
+.plan span {
+    font-size: 30%;
+    font-weight: 300;
+    
+}
+
+.plan-date {
+    font-size: 80%
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box li {
+    padding: 5px 0;
+}
+
+.checkmark ion-icon {
+    color: #cf6d17;
+}
+
+.btn-apply { 
+    margin-top: 10px;
+    
+}
+
+.btn-apply:link,
+.btn-apply:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-apply:hover,
+.btn-apply:active {
+    background-color: #cf6d17;
+    border: 1px solid #cf6d17;
+
+}
