@@ -145,7 +145,7 @@ header {
 /*------------------------------------*/
 
 .info { 
-    background-color: rgb(255, 238, 224);
+    background-color: #f4f4f4;
     color: #944b0b;
     text-transform: uppercase; 
 }
@@ -308,6 +308,7 @@ footer p {
 .contact-form {
     width: 60%;
     margin: 0 auto;
+    background-color: #f4f4f4;
 }
 
 input[type=text],
@@ -421,4 +422,10 @@ input[type=checkbox] {
     background-color: #cf6d17;
     border: 1px solid #cf6d17;
 
+}
+
+.img-sem {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
 }
